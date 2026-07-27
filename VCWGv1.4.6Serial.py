@@ -20,7 +20,7 @@ param_filename_10 = "initialize_Toronto_Base_10.uwg"         # .uwg file name
 param_filename_11 = "initialize_Toronto_Base_11.uwg"         # .uwg file name
 param_filename_12 = "initialize_Toronto_Base_12.uwg"         # .uwg file name
 
-case_name = "initialize_Toronto_Base_2022"
+case_name = "Toronto_Base_2022"
 
 # Initialize the UWG object and run the simulation
 
