@@ -88,25 +88,25 @@ bld,
 # Advanced Energy Parameters,
 # =================================================
 Adv_ene_heat_mode,2,    # Heating mode (1), cooling mode (0), no renewable energy (2), PV and Wind only (3)
-beta_st,49.28,          # Solar thermal (ST) tilt angle [deg]
+beta_st,43.65,          # Solar thermal (ST) tilt angle [deg]
 A_st,0.005,             # Area of ST per building footprint area [m^2 m^-2]
 U_st,3,                 # Loss coefficient of ST [W m^-2 K^-1]
 FR_st,0.9,              # Heat removal factor of ST
-tau_alpha_e_st,0.7,     # Effective transmittance-apsorptance of ST
+tau_alpha_e_st,0.7,     # Effective transmittance-absorptance of ST
 eta_he_st,0.8,          # Heat exchange efficiency of ST (fluid to air)
 V_bites,0.002,          # Volume of BITES [m^3 m^-2]
 c_bites,5244160,        # Volumetric heat capacity of BITES [J m^-3 K^-1]
 m_dot_st_f, 0.00002,    # Mass flow rate of working fluid in ST [kg s^-1 m^-2]
 c_st_f,4200,            # Heat capacity of working fluid in ST [J kg^-1 K^-1]
 m_dot_he_st,0.00008,    # Mass flow rate of air in ST heat exchanger [kg s^-1 m^-2]
-beta_pv,43.67,          # PV tilt angle [deg]
-A_pv,0.69,              # Area of PV per building footprint area [m^2 m^-2]
+beta_pv,43.65,          # PV tilt angle [deg]
+A_pv,0.005,             # Area of PV per building footprint area [m^2 m^-2]
 eta_pv,0.17,            # Electrical efficiency of PV
 COP_hp_min,1.5,         # Minimum COP of auxiliary HP at T_hp_min
 COP_hp_max,4,           # Maximum COP of auxiliary HP at T_hp_max
 T_hp_min,253.15,        # Minimum temperature for auxiliary HP [K]
 T_hp_max,308.15,        # Maximum temperature for auxiliary HP [K]
-A_wt,0.000,             # Swept area of wind turbine [m^2 m^-2]
+A_wt,0.005,             # Swept area of wind turbine [m^2 m^-2]
 eta_wt,0.4,             # efficiency (<Betz limit) of wind turbine
 S_wt_min,2,             # Minimum wind speed for turbine to work [m s^-1]
 S_wt_max,15,            # Maximum wind speed for turbine to work [m s^-1]
